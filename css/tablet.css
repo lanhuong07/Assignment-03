@@ -1,0 +1,144 @@
+/* áp dụng cho màn hình có width lớn hơn 576, tương đương với tablet */
+@media (min-width: 768px) {
+  #nav-bar .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+  }
+
+  #about .about-container {
+    display: flex;
+  }
+
+  #about .about-container #personal-info {
+    margin-top: 0;
+    width: 50%;
+    padding: 64px 12px 45px 50px;
+    background-color: darkgray;
+  }
+  .container-infor {
+    border-right: 1px solid lightgray;
+    height: 100%;
+    padding: 13px 27px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgray;
+  }
+  .infor-text {
+    display: flex;
+  }
+  #target {
+    width: 50%;
+    padding: 64px 12px 45px 50px;
+    background-color: lightgray;
+  }
+  .icon-infor {
+    display: flex;
+  }
+  #personal-info .mt-40 {
+    list-style: none;
+    line-height: 30px;
+    padding-left: 0;
+  }
+  .job-experience {
+    margin-top: 20px;
+    padding: 52px 25px 23px 29px;
+  }
+  .width-text {
+    line-height: 28px;
+    padding-top: 30px;
+  }
+  .text-now {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 15px;
+    background-color: blue;
+    color: white;
+  }
+  .d-block-text {
+    margin-bottom: 0;
+  }
+  .crossbar {
+    display: inline-block;
+    border: 1px solid #199cdb;
+    height: 2px;
+    width: 45px;
+    margin-right: 10px;
+  }
+  .crossbar-icon {
+    display: inline-block;
+    border: 1px solid lightgray;
+    height: 2px;
+    width: 45px;
+    margin-right: 10px;
+  }
+  .interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    white-space: nowrap;
+  }
+  .interest-icon {
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 54px;
+    color: blue;
+  }
+  .interest-text {
+    margin: 0;
+    font-size: 14px;
+  }
+  .interest-infor {
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .prize-funix {
+    display: flex;
+    padding: 34px 0px;
+    gap: 24px;
+    border-bottom: 1px solid #f4d2ab;
+  }
+  .prize {
+    width: 50%;
+  }
+  .prize-text {
+    font-size: 15px;
+  }
+  .prize-text2 {
+    margin-top: 15px;
+    line-height: 7px;
+    font-size: 12px;
+    color: darkgray;
+  }
+  .prize1 {
+    border-right: 1px solid #f4d2ab;
+  }
+  .prize2 {
+    border-bottom: 0;
+  }
+  .container {
+    padding-top: 40px;
+  }
+
+  .footer-text  span {
+    display: inline;
+  }
+
+  .col-md-divider-right {
+    border-right: 1px solid lightgray;
+  }
+
+  .prize-infor-col:not(:last-of-type) {
+    border-bottom: none;
+  }
+}

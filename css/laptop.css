@@ -1,0 +1,9 @@
+@media (min-width: 992px) {
+  .prize-infor {
+    border: none;
+  }
+
+  .col-md-divider-right {
+    border-right: none;
+  }
+}
